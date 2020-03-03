@@ -1,4 +1,5 @@
-## Welcome to GitHub Pages
+# Welcome to Marlene Azevedo's GitHub Pages 
+## CS-499-Q4508 CS Capstone
 
 You can use the [editor on GitHub](https://github.com/marleneA07/marlene07.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
