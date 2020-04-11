@@ -1,6 +1,10 @@
+/* ORIGINAL CODE */
 from graphics import *
 import sys
 import tkMessageBox
+
+
+
 #+-added to be able to select a random number from a range of numbers
 from random import randrange
 
@@ -8,6 +12,7 @@ from random import randrange
 The revisions in the code are labelled by the prefix '#+-'
 '''
 class Checkers:
+    
     def __init__(s):
         s.state = 'CustomSetup'
         s.is1P = False
@@ -27,7 +32,7 @@ class Checkers:
         s.numPiecesAllowed = 12
 
         s.win = GraphWin('Checkers',600,600)    #draws screen
-        s.win.setBackground('Wheat') # 'White'
+        s.win.setBackground('White') # 
         s.win.setCoords(-1,-3,11,9)              #creates a coordinate system for the window
         s.ClearBoard()
         
@@ -36,17 +41,18 @@ class Checkers:
         #+-added two lists
         s.moves = []
         s.badMoves = []
-
+    
         gridLetters = ['A','B','C','D','E','F','G','H',]
-        for i in range(s.BoardDimension):
+        for i in range(s.BoardDimension):    
             Text(Point(-0.5, i+0.5), i+1).draw(s.win)                 #left and right numbers for grid
             Text(Point(8.5, i+0.5), i+1).draw(s.win)
             Text(Point(i+0.5, -0.5),gridLetters[i]).draw(s.win)      #bottom and top letters
             Text(Point(i+0.5, 8.5),gridLetters[i]).draw(s.win) 
-        
+
         s.SetButtons()
         
-        s.SetupBoard()
+        s.SetupBoard()  
+    
 	####
     #handles the setup of the board (i.e. piece placement)
 	####
@@ -85,7 +91,7 @@ class Checkers:
         #MODIFY CODE: This may not always work, it is not expected/designed to (hopefully it usually works)
         #It is meant to promote the use of moves that allow capture of another piece afterwards
         for move in s.moves:
-            if s.PieceCanCapture(s.moveEndsAt(move)[0],s.moveEndsAt(move)[1]): #Removed not to create safer moves
+            if s.PieceCanCapture(s.moveEndsAt(move)[0],s.moveEndsAt(move)[1]): #Removed 'not' to create safer moves
                 s.badMoves.append(move)
         s.removeBadMoves()
 
@@ -110,14 +116,16 @@ class Checkers:
             if ((s.tiles[move[0]][move[1]].isPawn) and (s.tiles[move[2]][move[3]].isKing) #remove 'not' from code
                     and not s.isMoveSafe(move)):
                 s.badMoves.append(move)
-        s.removeBadMoves() 
+        s.removeBadMoves()        
+        
         # for every move in s.moves, remove bad moves. If not, 1st & 2nd tile move is pawn. 
         # And 3rd & 4th tile move is king. And Not "is move safe, then move" 
 
         #This may not always work, it is not expected/designed to (hopefully it usually works)
         #Promotes moves which trade kings when ahead in ***pieces <--might want to change classification of being ahead
         for move in s.moves:
-            if not ((s.tiles[move[0]][move[1]].isKing) and (s.tiles[move[2]][move[3]].isKing) and not s.isMoveSafe(move) and s.hasMorePieces()):
+            if not ((s.tiles[move[0]][move[1]].isKing) and (s.tiles[move[2]][move[3]].isKing) 
+                    and not s.isMoveSafe(move) and s.hasMorePieces()):
                 s.badMoves.append(move)
         s.removeBadMoves()
 
@@ -276,16 +284,16 @@ class Checkers:
         Text(Point(0,-2.3),'Custom').draw(s.win)  
         Text(Point(0,-2.7),'Setup').draw(s.win)
         
-    #(MODIFY AND MAKE CHANGES TO THE FOLLOWING BUTTONS)    
+    #(MODIFY AND MAKE CHANGES TO THE FOLLOWING BUTTONS) 
     def DrawStandard(s):
-        s.ColourButton('Linen',-1,-2,2,1)    #Button: Standard Setup 'White'
+        s.ColourButton('White',-1,-2,2,1)    
         Text(Point(0,-1.3),'Standard').draw(s.win)
-        Text(Point(0,-1.7),'Setup').draw(s.win)       
+        Text(Point(0,-1.7),'Setup').draw(s.win)        
     def DrawStart(s):
-        s.ColourButton('Greenyellow',10,-3) #Start! button  #'Yellow' 1,-2 <--Original coordinate/color button  ***********************
-        Text(Point(10.5,-2.5),'Start').draw(s.win)  #Text(Point(1.5,-1.5) <-- Original coordinates  *************
+        s.ColourButton('Yellow',1,-2) #Start! button 
+        Text(Point(1.5,-1.5),'Start').draw(s.win)  
     def DrawClear(s):
-        s.ColourButton('Peachpuff',-1,-3,2,1)    #Clear Button:  'White'
+        s.ColourButton('White',-1,-3,2,1)    #Clear Button
         Text(Point(0,-2.3),'Clear').draw(s.win)
         Text(Point(0,-2.7),'Board').draw(s.win)
         
@@ -314,19 +322,17 @@ class Checkers:
         Text(Point(4,-2.3),'2Player').draw(s.win)  
         Text(Point(4,-2.7),'Game').draw(s.win)
         
-        
-        #(REARRANGE COORDINATES FOR THE FOLLOWING BUTTONS)
-    def DrawLoad(s):#Load                           #**********************
-        s.ColourButton('White',9,0,2,1)             #**********************  ('White',6,-3,2,1)  
-        Text(Point(10,0.5),'Load').draw(s.win)      #**********************  Text(Point(7,-2.5),'Load')
-    def DrawSave(s):    #Save                       #Sabe Button        **********************
-        s.ColourButton('Lavenderblush',9,-1,2,1)    #Save Button color 'White'
-        Text(Point(10,-0.5),'Save').draw(s.win)      #Text(Point(9,-2.5)  Text Position
+    def DrawLoad(s):#Load                          
+        s.ColourButton('White',6,-3,2,1)             #**********************  ('White',6,-3,2,1)  
+        Text(Point(7,-2.5),'Load').draw(s.win)      #**********************  Text(Point(7,-2.5),'Load')
+    def DrawSave(s):    #Save                       #Sabe Button      
+        s.ColourButton('White',9,-1,2,1)    #Save Button color 'White'
+        Text(Point(9,-2.5),'Save').draw(s.win)      #Text(Point(9,-2.5)  Text Position
     def DrawX(s):#X
-        s.ColourButton('Red',10,-2)     #X button color **************************  ('Red',10,-3) 
-        Exit_txt = Text(Point(10.5,-1.5),'X')   # Text coordinates *********************** Text(Point(10.5,-2.5)
+        s.ColourButton('Red',10,-3)     #X button color **************************  ('Red',10,-3) 
+        Exit_txt = Text(Point(10.5,-2.5),'X')   # Text coordinates *********************** Text(Point(10.5,-2.5)
         Exit_txt.draw(s.win)
-        Exit_txt.setFill('Black')  #Button color 'White'  *******************************
+        Exit_txt.setFill('White')  #Button color 'White'  *******************************
         
         
         
@@ -357,13 +363,13 @@ class Checkers:
         if s.placeType == 'Delete':
             col1 = 'Green'
             col2 = 'Black'        
-        s.ColourButton(col1,8,-3)                  #**********************   (col1,9,-2)
-        deleteTxt = Text(Point(8.5,-2.5),'Del')    #**********************  (9.5,-1.5)
+        s.ColourButton(col1,9,-2)                  #**********************   (col1,9,-2)
+        deleteTxt = Text(Point(9.5,-1.5),'Del')    #**********************  (9.5,-1.5)
         deleteTxt.draw(s.win) 
         deleteTxt.setFill(col2)
     def DrawResign(s):
-        s.ColourButton('Lightcoral',9,0,2,1)    #Load  'White'   #******************  6,-3,2,1)
-        Text(Point(10,0.5),'Resign').draw(s.win)                 #****************** (7,-2.5)
+        s.ColourButton('Lightcoral',6,-3,2,1)    #Load  'White'   #******************  6,-3,2,1)
+        Text(Point(7,-2.5),'Resign').draw(s.win)                 #****************** (7,-2.5)
         
     def DrawTurn(s):
         col1 = 'White'
@@ -404,7 +410,7 @@ class Checkers:
             ExitGame(s.win)
         elif (-1<=X<1 and -2<=Y<-1): #Standard clicked
             s.StandardSetup()  
-        elif (10<=X<11 and -3<=Y<-2): #Start! clicked  (1<=X<2 and -2<=Y<-1) <- Original Coordinates ************
+        elif (1<=X<2 and -2<=Y<-1): #Start! clicked  (1<=X<2 and -2<=Y<-1) <- Original Coordinates ************
             num_wh = s.numColour('White')
             num_bl = s.numColour('Black')
             
@@ -429,11 +435,11 @@ class Checkers:
             s.SetButtons()
             
         #(SAVE, LOAD, AND DELETE CLICK COORDINATES)    
-        elif (9<=X<11 and -1<=Y<0): #Save clicked  #*******************  (8<=X<10 and -3<=Y<-2)
+        elif (8<=X<10 and -3<=Y<-2): #Save clicked  #*******************  (8<=X<10 and -3<=Y<-2)
             s.SaveSetupToFile()
-        elif (9<=X<11 and 0<=Y<1): #Load clicked  #********************  (6<=X<8 and -3<=Y<-2)
+        elif (6<=X<8 and -3<=Y<-2): #Load clicked  #********************  (6<=X<8 and -3<=Y<-2)
             s.LoadSetupFromFile()
-        elif (8<=X<9 and -3<=Y<-2): #Del clicked    #***************** (9<=X<10 and -2<=Y<-1)
+        elif (9<=X<10 and -2<=Y<-1): #Del clicked    #***************** (9<=X<10 and -2<=Y<-1)
             s.placeType = s.opposite(s.placeType)
             s.SetButtons()            
             
@@ -467,11 +473,11 @@ class Checkers:
 	#(REARRANGE X, SAVE, AND RESIGN CLICK BUTTONS)
     def clickInPlay(s,X,Y):
         #+-added X and Save clicked if statements
-        if (10<=X<11 and -1<=Y<-0): #X clickes     #******************************* (10<=X<11 and -3<=Y<-2)
+        if (10<=X<11 and -3<=Y<-2): #X clickes     #******************************* (10<=X<11 and -3<=Y<-2)
             ExitGame(s.win)
-        elif (8<=X<10 and -3<=Y<-2): #Save clicked
+        elif (8<=X<10 and -3<=Y<-2): #Save clicked  #********************* change coordinates, similar to line 432
             s.SaveSetupToFile()
-        elif (9<=X<11 and 0<=Y<1): #Resign clicked #***********************  (6<=X<8 and -3<=Y<-2)
+        elif (6<=X<8 and -3<=Y<-2): #Resign clicked #***********************  (6<=X<8 and -3<=Y<-2)
             
             
         #+-added message box indicating which player had quit/resigned
@@ -570,7 +576,7 @@ class Checkers:
 ########
 # This Function Enables a Piece to move. Trace Back --> Requirement 1.3
 ########
-    def move(s,x,y,X,Y): #parameters -> self,starting x,starting y,final X,final Y      assumes valid move as input           
+    def move(s,x,y,X,Y): #parameters -> self,starting x,starting y,final X,final Y assumes valid move as input           
         s.tiles[X][Y] = Tile(s.win,X,Y,True,s.tiles[x][y].pieceColour,s.tiles[x][y].pieceRank)
 
         if (Y==7 and s.tiles[X][Y].isWhite) or \
