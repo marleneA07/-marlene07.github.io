@@ -1,7 +1,4 @@
 # **Welcome to Marlene Azevedo's GitHub ePortfolio**
-
-
-:computer:
   
 
 There are three different enhancements merged into the artifact. 
