@@ -2,11 +2,14 @@
 
 ![spacegithub](https://user-images.githubusercontent.com/44255118/79651932-620eb600-8166-11ea-963f-c549c54d7695.jpg)
 
-There are three different enhancements merged into the artifact. Within the ePortfolio, is my sefl-assessment along with the code review.<br />  
+There are 3 different enhancements merged into the artifact. Within the ePortfolio, is my sefl-assessment along with the code review.<br />  
+
+<br />
 
 [Self-Assessment](https://github.com/marleneA07/-marlene07.github.io/blob/master/Professional_Self_Assessment.pdf)<br />
 
 [Checkers Game Code](https://github.com/marleneA07/-marlene07.github.io/blob/master/Checkers_Game_Code)<br />
+[(download)](Checkers_v24.py)
 
 [Code Review](https://drive.google.com/file/d/1-bc0udAnHUpMCdDJKnXNe46bzSVxWG69/view)<br />
 
