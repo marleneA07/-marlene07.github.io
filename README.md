@@ -28,14 +28,12 @@ Syntax highlighted code block
 :computer:
 
 - Software Engineering and Design
-[Algorithms and Data Structures](https://github.com/marleneA07/-marlene07.github.io/blob/master/Algorithm_and_Data_Structure).
-
-1. Numbered
-2. List
+- Algorithms and Data Structures
+- Database
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Constellation](file:///C:/Users/mazevedo/OneDrive/.CS_499%20Capstone/Constellation.png)
+[Link](url) and ![Constellation](https://techcrunch.com/wp-content/uploads/2010/07/github-logo.png?w=512)
 ```
 
 
