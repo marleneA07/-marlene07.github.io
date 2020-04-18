@@ -26,10 +26,9 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 - Algorithms and Data Structures
 - Database
 
-![gitgitgit](https://user-images.githubusercontent.com/44255118/79629634-027dbf80-8100-11ea-91ac-5e2201bb3c64.png)
 ```
 
-![gitgitgit](https://user-images.githubusercontent.com/44255118/79629634-027dbf80-8100-11ea-91ac-5e2201bb3c64.png)
+![gitgitgit](https://user-images.githubusercontent.com/44255118/79629671-3c4ec600-8100-11ea-9bcd-ad00ee8eac24.png)
 
 
 
