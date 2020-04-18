@@ -1,8 +1,5 @@
 theme: jekyll-theme-hacker
 
 
-@import "{{ site.theme }}";
-
-header {
-  display: none;
-}
+name: luaphacim's site
+title: null
