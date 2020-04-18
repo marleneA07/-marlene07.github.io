@@ -9,7 +9,7 @@ title: false
 
 # Character used to separate site title and description in HTML document title
 # and RSS feed title
-#title-separator: "-"
+title-separator: "-"
 
 # Ruby Date Format
 #date_format: "%B %-d, %Y"
