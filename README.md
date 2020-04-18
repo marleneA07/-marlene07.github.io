@@ -4,12 +4,12 @@
 
 ### ePortfolio Contains:
 ```markdown
-There are 3 different enhancements merged into the artifact. Within the ePortfolio, 
-is my sefl-assessment along with the code review.<br />
+There are 3 different enhancements merged into the artifact. 
+Within the ePortfolio, is my sefl-assessment along with the code review.
 ```
 <br />
 <br />
-<br />
+
 
 ![sdadfefewfdsfadsfdsfasd](https://user-images.githubusercontent.com/44255118/79630165-e3812c80-8103-11ea-8147-a454214c8279.png)
 
