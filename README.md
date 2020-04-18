@@ -8,20 +8,20 @@ There are 3 different enhancements merged into the artifact. Within the ePortfol
 
 [Self-Assessment](https://github.com/marleneA07/-marlene07.github.io/blob/master/Professional_Self_Assessment.pdf)<br />
 
-[Checkers Game Code](https://github.com/marleneA07/-marlene07.github.io/blob/master/Checkers_Game_Code)<br />
-[(download)](Checkers_v24.py)
+[Checkers Game Code](https://github.com/marleneA07/-marlene07.github.io/blob/master/Checkers_Game_Code)
+[(download)](Checkers_v24.py)<br />
 
 [Code Review](https://drive.google.com/file/d/1-bc0udAnHUpMCdDJKnXNe46bzSVxWG69/view)<br />
 
 [Software Engineering and Design](https://github.com/marleneA07/-marlene07.github.io/blob/master/Software_Engineering_and_Design)
-[download](Milestone_2_Software_Design.docx)<br />
+[(download)](Milestone_2_Software_Design.docx)<br />
 
 [Algorithms and Data Structures](https://github.com/marleneA07/-marlene07.github.io/blob/master/Algorithm_and_Data_Structure)
-[download](Milestone_3_Marlene_Azevedo.docx)<br />
+[(download)](Milestone_3_Marlene_Azevedo.docx)<br />
 
 
 [DataBase](https://github.com/marleneA07/-marlene07.github.io/blob/master/DataBase)
-[download](Milestone_4_Databases.docx)<br />
+[(download)](Milestone_4_Databases.docx)<br />
 
 
 <br />
