@@ -3,9 +3,11 @@
 
 There are three different enhancements merged into the artifact. 
 
-[Software Engineering and Design]().
+[Software Engineering and Design](https://github.com/marleneA07/-marlene07.github.io/blob/master/Software_Engineering_and_Design)
 
-[Algorithms and Data Structures]().
+[Algorithms and Data Structures](https://github.com/marleneA07/-marlene07.github.io/blob/master/Algorithm_and_Data_Structure)
+
+[DataBase](https://github.com/marleneA07/-marlene07.github.io/blob/master/DataBase)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
