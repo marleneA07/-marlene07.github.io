@@ -1,7 +1,12 @@
-# **Welcome to Marlene Azevedo's GitHub ePortfolio** :computer:
+# **Welcome to Marlene Azevedo's GitHub ePortfolio**
+
+
+:computer:
   
 
 There are three different enhancements merged into the artifact. 
+
+[Checkers Game Code](https://github.com/marleneA07/-marlene07.github.io/blob/master/Checkers_Game_Code)
 
 [Software Engineering and Design](https://github.com/marleneA07/-marlene07.github.io/blob/master/Software_Engineering_and_Design)
 
