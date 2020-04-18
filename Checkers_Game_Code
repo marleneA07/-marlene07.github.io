@@ -323,16 +323,16 @@ class Checkers:
         Text(Point(4,-2.7),'Game').draw(s.win)
         
     def DrawLoad(s):#Load                          
-        s.ColourButton('White',6,-3,2,1)             #**********************  ('White',6,-3,2,1)  
-        Text(Point(7,-2.5),'Load').draw(s.win)      #**********************  Text(Point(7,-2.5),'Load')
-    def DrawSave(s):    #Save                       #Sabe Button      
-        s.ColourButton('White',9,-1,2,1)    #Save Button color 'White'
-        Text(Point(9,-2.5),'Save').draw(s.win)      #Text(Point(9,-2.5)  Text Position
+        s.ColourButton('White',6,-3,2,1)             
+        Text(Point(7,-2.5),'Load').draw(s.win)      
+    def DrawSave(s):    #Save                       
+        s.ColourButton('White',9,-1,2,1)    
+        Text(Point(9,-2.5),'Save').draw(s.win)      
     def DrawX(s):#X
-        s.ColourButton('Red',10,-3)     #X button color **************************  ('Red',10,-3) 
-        Exit_txt = Text(Point(10.5,-2.5),'X')   # Text coordinates *********************** Text(Point(10.5,-2.5)
+        s.ColourButton('Red',10,-3)     
+        Exit_txt = Text(Point(10.5,-2.5),'X')  
         Exit_txt.draw(s.win)
-        Exit_txt.setFill('White')  #Button color 'White'  *******************************
+        Exit_txt.setFill('White')  
         
         
         
@@ -363,13 +363,13 @@ class Checkers:
         if s.placeType == 'Delete':
             col1 = 'Green'
             col2 = 'Black'        
-        s.ColourButton(col1,9,-2)                  #**********************   (col1,9,-2)
-        deleteTxt = Text(Point(9.5,-1.5),'Del')    #**********************  (9.5,-1.5)
+        s.ColourButton(col1,9,-2)                  
+        deleteTxt = Text(Point(9.5,-1.5),'Del')  
         deleteTxt.draw(s.win) 
         deleteTxt.setFill(col2)
     def DrawResign(s):
-        s.ColourButton('Lightcoral',6,-3,2,1)    #Load  'White'   #******************  6,-3,2,1)
-        Text(Point(7,-2.5),'Resign').draw(s.win)                 #****************** (7,-2.5)
+        s.ColourButton('Lightcoral',6,-3,2,1)   
+        Text(Point(7,-2.5),'Resign').draw(s.win)                
         
     def DrawTurn(s):
         col1 = 'White'
@@ -377,7 +377,7 @@ class Checkers:
         if s.pTurn == 'Black':
             col1 = 'Black'
             col2 = 'White'
-        s.ColourButton(col1,9,8,2,1)    #Button: Standard Setup
+        s.ColourButton(col1,9,8,2,1)    
         txt1 = Text(Point(10,8.7),col1)
         txt2 = Text(Point(10,8.3),'Turn')
         txt1.draw(s.win)
@@ -406,11 +406,11 @@ class Checkers:
     #(X AND START CLICK COORDINATES)        
     def clickInCustom(s,X,Y):  
         #+-added X button if statement
-        if (10<=X<11 and -1<=Y<-0): #X clicks   #*********************
+        if (10<=X<11 and -1<=Y<-0): #X clicks   
             ExitGame(s.win)
         elif (-1<=X<1 and -2<=Y<-1): #Standard clicked
             s.StandardSetup()  
-        elif (1<=X<2 and -2<=Y<-1): #Start! clicked  (1<=X<2 and -2<=Y<-1) <- Original Coordinates ************
+        elif (1<=X<2 and -2<=Y<-1): 
             num_wh = s.numColour('White')
             num_bl = s.numColour('Black')
             
@@ -435,11 +435,11 @@ class Checkers:
             s.SetButtons()
             
         #(SAVE, LOAD, AND DELETE CLICK COORDINATES)    
-        elif (8<=X<10 and -3<=Y<-2): #Save clicked  #*******************  (8<=X<10 and -3<=Y<-2)
+        elif (8<=X<10 and -3<=Y<-2): #Save clicked  
             s.SaveSetupToFile()
-        elif (6<=X<8 and -3<=Y<-2): #Load clicked  #********************  (6<=X<8 and -3<=Y<-2)
+        elif (6<=X<8 and -3<=Y<-2): #Load clicked  
             s.LoadSetupFromFile()
-        elif (9<=X<10 and -2<=Y<-1): #Del clicked    #***************** (9<=X<10 and -2<=Y<-1)
+        elif (9<=X<10 and -2<=Y<-1): #Del clicked    
             s.placeType = s.opposite(s.placeType)
             s.SetButtons()            
             
@@ -473,11 +473,11 @@ class Checkers:
 	#(REARRANGE X, SAVE, AND RESIGN CLICK BUTTONS)
     def clickInPlay(s,X,Y):
         #+-added X and Save clicked if statements
-        if (10<=X<11 and -3<=Y<-2): #X clickes     #******************************* (10<=X<11 and -3<=Y<-2)
+        if (10<=X<11 and -3<=Y<-2): #X clickes     
             ExitGame(s.win)
-        elif (8<=X<10 and -3<=Y<-2): #Save clicked  #********************* change coordinates, similar to line 432
+        elif (8<=X<10 and -3<=Y<-2): #Save clicked  
             s.SaveSetupToFile()
-        elif (6<=X<8 and -3<=Y<-2): #Resign clicked #***********************  (6<=X<8 and -3<=Y<-2)
+        elif (6<=X<8 and -3<=Y<-2): #Resign clicked 
             
             
         #+-added message box indicating which player had quit/resigned
