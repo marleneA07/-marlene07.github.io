@@ -12,7 +12,7 @@ title: false
 title-separator: "-"
 
 # Ruby Date Format
-#date_format: "%B %-d, %Y"
+date_format: "%B %-d, %Y"
 
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
