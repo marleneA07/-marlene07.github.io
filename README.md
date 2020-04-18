@@ -17,9 +17,10 @@ There are three different enhancements merged into the artifact. Within the ePor
 [Algorithms and Data Structures](https://github.com/marleneA07/-marlene07.github.io/blob/master/Algorithm_and_Data_Structure)
 [download](Milestone_3_Marlene_Azevedo.docx)<br />
 
+<pre>
 [DataBase](https://github.com/marleneA07/-marlene07.github.io/blob/master/DataBase)
 [download](Milestone_4_Databases.docx)
-<br />
+</pre>
 
 
 
