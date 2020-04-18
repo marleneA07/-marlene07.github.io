@@ -29,8 +29,8 @@ Syntax highlighted code block
 
 :computer:
 
-- [Software Engineering and Design]().
-- [Algorithms and Data Structures]().
+- [Software Engineering and Design](https://github.com/marleneA07/-marlene07.github.io/blob/master/Software_Engineering_and_Design).
+- [Algorithms and Data Structures](https://github.com/marleneA07/-marlene07.github.io/blob/master/Algorithm_and_Data_Structure).
 
 1. Numbered
 2. List
