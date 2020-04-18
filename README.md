@@ -3,7 +3,7 @@
 ![spacegithub](https://user-images.githubusercontent.com/44255118/79651932-620eb600-8166-11ea-963f-c549c54d7695.jpg)
 
 
-There are three different enhancements merged into the artifact. Within the ePortfolio, is my sefl-assessment along with the codereview.<br />  
+There are three different enhancements merged into the artifact. Within the ePortfolio, is my sefl-assessment along with the code review.<br />  
 
 [Self-Assessment](https://github.com/marleneA07/-marlene07.github.io/blob/master/Professional_Self_Assessment.pdf)
 
@@ -17,10 +17,10 @@ There are three different enhancements merged into the artifact. Within the ePor
 [Algorithms and Data Structures](https://github.com/marleneA07/-marlene07.github.io/blob/master/Algorithm_and_Data_Structure)
 [download](Milestone_3_Marlene_Azevedo.docx)<br />
 
-<pre>
-[DataBase](https://github.com/marleneA07/-marlene07.github.io/blob/master/DataBase)
+
+[DataBase](https://github.com/marleneA07/-marlene07.github.io/blob/master/DataBase)<br .>
 [download](Milestone_4_Databases.docx)
-</pre>
+<br />
 
 
 
@@ -30,6 +30,7 @@ There are three different enhancements merged into the artifact. Within the ePor
 ### ePortfolio Contains:
 ```markdown
 - Original Checkers Code
+- Self-Assessment
 - Code Review (video)
 - Software Engineering and Design
 - Algorithms and Data Structures
