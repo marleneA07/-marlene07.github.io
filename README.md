@@ -13,6 +13,7 @@ There are three different enhancements merged into the artifact.
 
 [Software Engineering and Design](https://github.com/marleneA07/-marlene07.github.io/blob/master/Software_Engineering_and_Design)
 [download](https://github.com/marleneA07/-marlene07.github.io/blob/master/Milestone_2_Software_Design.docx)
+[Test](Milestone_2_Software_Design.docx)
 
 [Algorithms and Data Structures](https://github.com/marleneA07/-marlene07.github.io/blob/master/Algorithm_and_Data_Structure)
 
