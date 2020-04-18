@@ -35,7 +35,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Constellation](file:///C:/Users/mazevedo/OneDrive/.CS_499%20Capstone/Constellation.png)
 ```
 
 
