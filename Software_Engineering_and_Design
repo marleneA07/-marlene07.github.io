@@ -1,4 +1,4 @@
-/* ORIGINAL CODE */
+/* ORIGINAL CHECKERS CODE */
 from graphics import *
 import sys
 import tkMessageBox
