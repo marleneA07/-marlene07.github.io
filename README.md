@@ -1,6 +1,7 @@
 # **Welcome to Marlene Azevedo's GitHub ePortfolio**
   
 
+![spacegithub](https://user-images.githubusercontent.com/44255118/79629469-ee858e00-80fe-11ea-9a03-a0241398e398.jpg)
 
 There are three different enhancements merged into the artifact. 
 
