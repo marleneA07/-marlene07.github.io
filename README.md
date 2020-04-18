@@ -1,7 +1,11 @@
-# **Welcome to Marlene Azevedo's GitHub ePortfolio** 
-## CS-499-Q4508 CS Capstone
+# **Welcome to Marlene Azevedo's GitHub ePortfolio** :computer:
+  
 
-**You** can use the [editor on GitHub](https://github.com/marleneA07/marlene07.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+There are three different enhancements merged into the artifact. 
+
+[Software Engineering and Design]().
+
+[Algorithms and Data Structures]().
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
