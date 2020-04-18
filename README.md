@@ -28,7 +28,7 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ```
 
-![gitgitgit](https://user-images.githubusercontent.com/44255118/79629671-3c4ec600-8100-11ea-9bcd-ad00ee8eac24.png)
+![gitgitgit](https://user-images.githubusercontent.com/44255118/79629749-df9fdb00-8100-11ea-9e6d-7120fa2c13f4.png)
 
 
 
