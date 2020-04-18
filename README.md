@@ -15,17 +15,13 @@ There are three different enhancements merged into the artifact.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
 ### ePortfolio Contains:
-
+```markdown
 - Software Engineering and Design
 - Algorithms and Data Structures
 - Database
-
 ```
 
 ![gitgitgit](https://user-images.githubusercontent.com/44255118/79629749-df9fdb00-8100-11ea-9e6d-7120fa2c13f4.png)
