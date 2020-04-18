@@ -20,24 +20,16 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 333
-
-:computer:
+### ePortfolio Contains:
 
 - Software Engineering and Design
 - Algorithms and Data Structures
 - Database
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Constellation](https://techcrunch.com/wp-content/uploads/2010/07/github-logo.png?w=512)
+![gitgitgit](https://user-images.githubusercontent.com/44255118/79629634-027dbf80-8100-11ea-91ac-5e2201bb3c64.png)
 ```
 
-
+![gitgitgit](https://user-images.githubusercontent.com/44255118/79629634-027dbf80-8100-11ea-91ac-5e2201bb3c64.png)
 
 
 
