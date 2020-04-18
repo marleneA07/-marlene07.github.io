@@ -14,11 +14,11 @@ There are three different enhancements merged into the artifact. Within the ePor
 [Software Engineering and Design](https://github.com/marleneA07/-marlene07.github.io/blob/master/Software_Engineering_and_Design)
 [download](Milestone_2_Software_Design.docx)<br />
 
-[Algorithms and Data Structures](https://github.com/marleneA07/-marlene07.github.io/blob/master/Algorithm_and_Data_Structure)
+[Algorithms and Data Structures](https://github.com/marleneA07/-marlene07.github.io/blob/master/Algorithm_and_Data_Structure)<br />
 [download](Milestone_3_Marlene_Azevedo.docx)<br />
 
 
-[DataBase](https://github.com/marleneA07/-marlene07.github.io/blob/master/DataBase)<br .>
+[DataBase](https://github.com/marleneA07/-marlene07.github.io/blob/master/DataBase)<br />
 [download](Milestone_4_Databases.docx)
 <br />
 
