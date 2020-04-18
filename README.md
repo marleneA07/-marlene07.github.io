@@ -3,7 +3,7 @@
 ![spacegithub](https://user-images.githubusercontent.com/44255118/79651932-620eb600-8166-11ea-963f-c549c54d7695.jpg)
 
 
-There are three different enhancements merged into the artifact. 
+<br>There are three different enhancements merged into the artifact.</br>  
 
 [Self-Assessment](https://github.com/marleneA07/-marlene07.github.io/blob/master/Professional_Self_Assessment.pdf)
 
