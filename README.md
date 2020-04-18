@@ -5,6 +5,8 @@
 
 There are three different enhancements merged into the artifact. 
 
+[Self-Assessment](https://github.com/marleneA07/-marlene07.github.io/blob/master/Professional_Self_Assessment.pdf)
+
 [Checkers Game Code](https://github.com/marleneA07/-marlene07.github.io/blob/master/Checkers_Game_Code)
 
 [Code Review](https://drive.google.com/file/d/1-bc0udAnHUpMCdDJKnXNe46bzSVxWG69/view)
