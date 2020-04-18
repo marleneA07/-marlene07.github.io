@@ -23,7 +23,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 - Algorithms and Data Structures
 - Database
 ```
-![gitgitgit](https://user-images.githubusercontent.com/44255118/79629826-5e951380-8101-11ea-87e8-94c2276e3dde.png)
+![gitgitgit](https://user-images.githubusercontent.com/44255118/79629859-98661a00-8101-11ea-9a1b-f224bb9536b7.png)
 
 
 
