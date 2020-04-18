@@ -1,6 +1,6 @@
 # **Welcome to Marlene Azevedo's GitHub ePortfolio**
   
- :dance: :flower: 
+
 
 There are three different enhancements merged into the artifact. 
 
