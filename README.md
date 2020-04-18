@@ -21,7 +21,7 @@ There are three different enhancements merged into the artifact.
 - Algorithms and Data Structures
 - Database
 ```
-![gitgitgit](https://user-images.githubusercontent.com/44255118/79629908-f692fd00-8101-11ea-8bde-b1e483b08751.png)
+![gitgitgit](https://user-images.githubusercontent.com/44255118/79629935-34902100-8102-11ea-8ee0-343fca77e24d.png)
 
 
 
