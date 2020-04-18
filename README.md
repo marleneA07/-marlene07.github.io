@@ -1,5 +1,5 @@
   
-
+#  
 
 ![spacegithub](https://user-images.githubusercontent.com/44255118/79651932-620eb600-8166-11ea-963f-c549c54d7695.jpg)
 
@@ -7,6 +7,8 @@
 There are three different enhancements merged into the artifact. 
 
 [Checkers Game Code](https://github.com/marleneA07/-marlene07.github.io/blob/master/Checkers_Game_Code)
+
+[Code Review](https://drive.google.com/file/d/1-bc0udAnHUpMCdDJKnXNe46bzSVxWG69/view)
 
 [Software Engineering and Design](https://github.com/marleneA07/-marlene07.github.io/blob/master/Software_Engineering_and_Design)
 
@@ -22,6 +24,8 @@ There are three different enhancements merged into the artifact.
 
 ### ePortfolio Contains:
 ```markdown
+- Original Checkers Code
+- Code Review (video)
 - Software Engineering and Design
 - Algorithms and Data Structures
 - Database
