@@ -2,9 +2,14 @@
 
 ![spacegithub](https://user-images.githubusercontent.com/44255118/79651932-620eb600-8166-11ea-963f-c549c54d7695.jpg)
 
-There are 3 different enhancements merged into the artifact. Within the ePortfolio, is my sefl-assessment along with the code review.<br />  
+### ePortfolio Contains:
+```markdown
+There are 3 different enhancements merged into the artifact. Within the ePortfolio, is my sefl-assessment along with the code review.<br />
+```
 
-<br />
+
+![sdadfefewfdsfadsfdsfasd](https://user-images.githubusercontent.com/44255118/79630165-e3812c80-8103-11ea-8147-a454214c8279.png)
+
 
 1) [Self-Assessment](https://github.com/marleneA07/-marlene07.github.io/blob/master/Professional_Self_Assessment.pdf)<br />
 
@@ -27,18 +32,9 @@ There are 3 different enhancements merged into the artifact. Within the ePortfol
 <br />
 <br />
 
-![sdadfefewfdsfadsfdsfasd](https://user-images.githubusercontent.com/44255118/79630165-e3812c80-8103-11ea-8147-a454214c8279.png)
 
 
-### ePortfolio Contains:
-```markdown
-- Original Checkers Code
-- Self-Assessment
-- Code Review (video)
-- Software Engineering and Design
-- Algorithms and Data Structures
-- Database
-```
+
 ![gitgitgit](https://user-images.githubusercontent.com/44255118/79629935-34902100-8102-11ea-8ee0-343fca77e24d.png)
 
 
