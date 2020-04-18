@@ -317,8 +317,8 @@ class Checkers:
         
         #(REARRANGE COORDINATES FOR THE FOLLOWING BUTTONS)
     def DrawLoad(s):#Load                           #**********************
-        s.ColourButton('White',9,0,2,1)             #**********************  ('White',6,-3,2,1)  
-        Text(Point(10,0.5),'Load').draw(s.win)      #**********************  Text(Point(7,-2.5),'Load')
+        s.ColourButton('White',9,0,2,1)             #********************** Original Code ('White',6,-3,2,1)  
+        Text(Point(10,0.5),'Load').draw(s.win)      #**********************  Original Code  Text(Point(7,-2.5),'Load')
     def DrawSave(s):    #Save                       #Sabe Button        **********************
         s.ColourButton('Lavenderblush',9,-1,2,1)    #Save Button color 'White'
         Text(Point(10,-0.5),'Save').draw(s.win)      #Text(Point(9,-2.5)  Text Position
