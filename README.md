@@ -15,6 +15,7 @@ There are three different enhancements merged into the artifact.
 [download](Milestone_2_Software_Design.docx)
 
 [Algorithms and Data Structures](https://github.com/marleneA07/-marlene07.github.io/blob/master/Algorithm_and_Data_Structure)
+[download](Milestone_3_Marlene_Azevedo.docx)
 
 [DataBase](https://github.com/marleneA07/-marlene07.github.io/blob/master/DataBase)
 
