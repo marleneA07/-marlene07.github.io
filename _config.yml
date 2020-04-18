@@ -1,7 +1,8 @@
 theme: jekyll-theme-hacker
 
 # Name of website
-title: Welcome To My Website
+# title: Welcome To My Website
+title: false 
 
 # Short description of your site
 description: my virtual ePortfolio that displays my skills :smile:
