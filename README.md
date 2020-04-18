@@ -13,8 +13,6 @@ There are three different enhancements merged into the artifact.
 
 [DataBase](https://github.com/marleneA07/-marlene07.github.io/blob/master/DataBase)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 
 
 ### ePortfolio Contains:
