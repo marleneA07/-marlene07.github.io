@@ -14,7 +14,7 @@ Within the ePortfolio, there is also my sefl-assessment along with the code revi
 ![sdadfefewfdsfadsfdsfasd](https://user-images.githubusercontent.com/44255118/79630165-e3812c80-8103-11ea-8147-a454214c8279.png)
 
 
-1) [Self-Assessment](https://github.com/marleneA07/-marlene07.github.io/blob/master/Professional_Self_Assessment.pdf)<br />
+1) [Self-Assessment](Professional_Self_Assessment_updated.pdf)<br />
 
 2) [Code Review](https://drive.google.com/file/d/1-bc0udAnHUpMCdDJKnXNe46bzSVxWG69/view)<br />
 
